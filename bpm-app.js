@@ -52,6 +52,7 @@ document.querySelector('#clear').addEventListener('click', function (e) {
 document.addEventListener('keydown', function (e) {
     if (e.code === 'Space') {
         document.querySelector('#tap').blur()
+        document.querySelector('#clear').blur()
         calculateBPM()
     }
 })
